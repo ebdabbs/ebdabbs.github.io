@@ -3,27 +3,36 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<!--<li><a href="/art">Artwork</a></li>-->
-        		<!--<li><a href="/websites">Web Dev</a></li>-->
-        		<!--<li><a href="/resume">Resume</a></li>-->
-    		</ul>
-		</nav>
-		<div class="container">
-		
-		{{content}}
-		
-		</div><!--container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:dabbseb@gmail.com">email</a></li>
-        		<li><a href="https://www.linkedin.com/in/elizabethdabbs">LinkedIn</a></li>
-			</ul>
-		</footer>
+		<div class="page-wrapper">
+			<nav class="header">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#artwork">Artwork</a></li>
+					<!--<li><a href="/websites">Web Dev</a></li>-->
+					<!--<li><a href="/resume">Resume</a></li>-->
+				</ul>
+			</nav>
+			<div class="container">
+
+				{{content}}
+
+			</div><!--container -->
+			<footer>
+				<ul class="center">
+					<li><a href="https://github.com/ebdabbs/ebdabbs.github.io" title="Site Repo">
+						<i class="fa fa-github fa-3x"></i></a></li>
+					<li><a href="https://twitter.com/ebdabbs" title="Twitter">
+						<i class="fa fa-twitter-square fa-3x"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/elizabethdabbs" title="LinkedIn">
+						<i class="fa fa-linkedin-square fa-3x"></i></a></li>
+					<li><a href="mailto:dabbseb@gmail.com" title="dabbseb@gmail.com">
+						<i class="fa fa-envelope fa-3x"></i></a></li>
+				</ul>
+			</footer>
+		</div>
 	</body>
 </html>
