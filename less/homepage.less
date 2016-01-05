@@ -1,53 +1,35 @@
 .homepage {
   .title {
-    background-image: url('../img/tidal_basin.jpg');
+    background-image: url('../img/tidal_basin2.jpg');
     text-align: center;
-    padding: 8% 1% 11% 1%;
+    padding: 14% 0 12% 0;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     #heading-name {
-      padding: 2% 0;
+      padding: 2% 0 1% 0;
       font-size: 500%;
       font-weight: 500;
     }
     #tagline {
       font-size: 200%;
       padding: 0 0 3% 0;
-    }
-  }
-  .section-heading {
-    font-size: 320%;
-    color: @color-lt-blue;
-    font-weight: 400;
-    padding: 2% 0 1% 0;
-  }
-  .section-content {
-    padding: 2% 1% 2% 6%;
-    margin-bottom: 2%;
-  }
-  @media(max-width: @screen-sm-max) {
-    .section-content {
-      padding: 2% 1%;
-    }
-  }
-  p {
-    font-size: 115%;
-  }
-  #about {
-    background-color: @color-lt-gray;
-    #home-blurb {
-      text-align: left;
-    }
-    .circular-image{
-      background-image: url('../img/IMG_8007.jpg');
-      margin: auto;
-      position: relative;
-      top: -60px;
-    }
-    @media(max-width: @screen-md-min) {
-      .circular-image {
-        top: 0;
+      .link-button {
+        border: solid 2px white;
+        display: inline-flex;
+        margin: 5px;
+        background-color: rgba(30,30,30,0.1);
+        a {
+          color: white;
+          padding: 10px 15px;
+        }
+        a:hover {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      .link-button:hover {
+        background-color: transparent;
       }
     }
   }
