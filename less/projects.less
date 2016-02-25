@@ -1,0 +1,55 @@
+@import "variables.less";
+#projects {
+  h1 {
+    text-align: center;
+  }
+  .grid {
+    margin-top: 15px;
+    .card {
+      margin-bottom: 25px;
+      .card-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 300px;
+        width: 100%;
+        background-position: center;
+        background-color: @color-sidebar;
+        .card-txt {
+          display: none;
+        }
+      }
+      .card-image:hover {
+        cursor: pointer;
+        background-color: @color-sidebar;
+        .layer {
+          height: 100%;
+          width: 100%;
+          padding: 140px 15px;
+          background-color: rgba(217, 229, 252, 0.9);
+          .card-txt {
+            display: block;
+            color: @color-dk-blue;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+  #wedding-home {
+    .card-image {
+      background-image: url('../img/wedding_home.jpg');
+    }
+  }
+  #pit {
+    .card-image {
+      background-image: url('../img/pit.jpg');
+    }
+  }
+  #dol {
+    .card-image {
+      background-image: url('../img/dol.png');
+    }
+  }
+}
