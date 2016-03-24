@@ -4,6 +4,24 @@
     margin-top: 15px;
     .card {
       margin-bottom: 25px;
+      .video-content {
+        z-index: 1;
+        background-color: @color-sidebar;
+        .video-wrapper {
+          position: relative;
+          padding-bottom: 50.25%;
+          padding-top: 25px;
+          height: 0;
+          border-bottom: solid 4px @color-dk-blue;
+          iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
       .card-content {
         z-index: 1;
         background-color: @color-sidebar;
@@ -51,13 +69,13 @@
         #art-12 {
           background-image: url('../img/art/sour.jpg');
         }
-        .title {
-          padding: 5px;
-          font-weight: bold;
-        }
-        .description {
-          padding: 0 5px 8px 5px;
-        }
+      }
+      .title {
+        padding: 5px;
+        font-weight: bold;
+      }
+      .description {
+        padding: 0 5px 8px 5px;
       }
     }
   }
