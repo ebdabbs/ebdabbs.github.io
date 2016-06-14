@@ -1,6 +1,24 @@
 @import "variables.less";
 
 #projects {
+  #projects-desktop {
+    @media screen and (max-width: @screen-sm-max) {
+      display: none;
+    }
+  }
+  #projects-mobile {
+    display: none;
+    @media screen and (max-width: @screen-sm-max) {
+      display: inherit;
+      .card-description {
+        h3 {
+          font-family: 'Lora', serif;
+          font-weight: bold;
+          color: @color-lt-blue;
+        }
+      }
+    }
+  }
   h1 {
     padding-left: 30px;
 
@@ -12,21 +30,19 @@
     border-color: @color-lt-blue;
   }
   .btn {
-    background-color: transparent;
-    color: @color-dk-blue;
-    border-radius: 0;
-    border: solid 2px @color-dk-blue;
-    text-transform: uppercase;
+    background-color: @color-lt-blue;
+    color: @color-coral;
+    border-radius: 5px;
+    border: none;
     margin-top: 30px;
     padding: auto 30px;
+    letter-spacing: 1px;
+    font-family: 'Lora', serif;
   }
   .btn:hover {
     color: @color-coral;
     text-decoration: none;
-    //font-weight: bold;
-    //border-color: @color-dk-blue;
-    background-color: @color-lt-blue;
-    border-color: @color-lt-blue;
+    background-color: @color-dk-blue;
   }
   .card {
     //padding-left: 15px;
@@ -64,37 +80,37 @@
     }
   }
 
-  #wedding-home {
+  .wedding-home {
     .card-image {
       background-image: url('../img/wedding_home.jpg');
     }
   }
-  #pit {
+  .pit {
     .card-image {
       background-image: url('../img/pit.jpg');
     }
   }
-  #dol {
+  .dol {
     .card-image {
       background-image: url('../img/dol.png');
     }
   }
-  #zooki {
+  .zooki {
     .card-image {
       background-image: url('../img/zooki2.png');
     }
   }
-  #blitz {
+  .blitz {
     .card-image {
       background-image: url('../img/blitz2.png');
     }
   }
-  #ray {
+  .ray {
     .card-image {
       background-image: url('../img/ray_tracer.png');
     }
   }
-  #march {
+  .march {
     .card-image {
       background-image: url('../img/march_madness2.png');
     }
