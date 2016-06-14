@@ -26,6 +26,11 @@ nav ul, footer ul {
     a:hover {
       text-decoration: none;
     }
+    &.active {
+      a {
+        color: @color-dk-blue;
+      }
+    }
   }
 }
 nav {
@@ -54,6 +59,14 @@ footer {
 .center {
   margin: 0 auto;
   text-align: center;
+}
+.divider {
+  margin-top: 26px;
+  margin-bottom: 36px;
+  width: 120px;
+  height: 1px;
+  border-bottom: solid 4px;
+  padding: 0;
 }
 //.circular-image {
 //  height: 230px;

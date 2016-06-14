@@ -1,41 +1,69 @@
 @import "variables.less";
+
 #projects {
-  padding-left: 15px;
-  padding-right: 15px;
-  .grid {
-    margin-top: 15px;
-    .card {
-      margin-bottom: 25px;
-      .card-image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 300px;
-        width: 100%;
-        background-position: center;
-        background-color: @color-sidebar;
-        .card-txt {
-          display: none;
-        }
+  h1 {
+    padding-left: 30px;
+
+  }
+  .divider {
+    width: 50%;
+    padding-top: 30px;
+    margin: 0 auto 60px auto;
+    border-color: @color-lt-blue;
+  }
+  .btn {
+    background-color: transparent;
+    color: @color-dk-blue;
+    border-radius: 0;
+    border: solid 2px @color-dk-blue;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: auto 30px;
+  }
+  .btn:hover {
+    color: @color-coral;
+    text-decoration: none;
+    //font-weight: bold;
+    //border-color: @color-dk-blue;
+    background-color: @color-lt-blue;
+    border-color: @color-lt-blue;
+  }
+  .card {
+    //padding-left: 15px;
+    //padding-right: 15px;
+    //margin-bottom: 25px;
+    padding: 30px;
+    //background-color: @color-sidebar;
+    .card-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      width: 100%;
+      background-position: center;
+      background-color: @color-sidebar;
+      .card-txt {
+        display: none;
       }
-      .card-image:hover {
-        cursor: pointer;
-        background-color: @color-sidebar;
-        .layer {
-          height: 100%;
-          width: 100%;
-          padding: 140px 15px;
-          background-color: rgba(217, 229, 252, 0.9);
-          .card-txt {
-            display: block;
-            color: @color-dk-blue;
-            font-weight: bold;
-            text-align: center;
-            vertical-align: middle;
-          }
+    }
+    .card-image:hover {
+      cursor: pointer;
+      background-color: @color-sidebar;
+      .layer {
+        height: 100%;
+        width: 100%;
+        padding: 140px 15px;
+        background-color: rgba(217, 229, 252, 0.9);
+        .card-txt {
+          display: block;
+          color: @color-dk-blue;
+          font-weight: bold;
+          text-align: center;
+          vertical-align: middle;
         }
       }
     }
   }
+
   #wedding-home {
     .card-image {
       background-image: url('../img/wedding_home.jpg');
