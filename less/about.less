@@ -39,4 +39,26 @@
       padding-bottom: 2%;
     }
   }
+  #thanks {
+    text-align: right;
+    background-color: @color-sidebar;
+    #me {
+      background: url("../img/grad_cap.JPG") no-repeat center;
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      margin: 15px;
+      float: left;
+    }
+    @media screen and (max-width: @screen-sm-max) {
+      text-align: center;
+      .section {
+        padding: 15px;
+      }
+      #me {
+        float: none;
+        margin: 15px auto;
+      }
+    }
+  }
 }
