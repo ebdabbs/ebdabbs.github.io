@@ -3,5 +3,52 @@ layout: default
 title: Contact
 ---
 <div class="subpage" id="contact">
-    <h1>Under Construction</h1>
+    <div class="row">
+        <div class="col-sm-7 col-xs-12">
+            <form id="gform" method="POST"
+                  action="https://script.google.com/macros/s/AKfycbzQ2jm_-f4w9wtasb_xJCASNyW2SJO9cn9fSrx0OOblqt2k4bDd/exec">
+                <!-- change the form action to your script url -->
+
+                <fieldset class="form-group">
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" placeholder="Carl Fredricksen" class="form-control" required/>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label for="email">Your Email Address</label>
+                    <input id="email" name="email" type="email" value="" required placeholder="carl.fredricksen@email.com" class="form-control"/>
+                    <span id="email-invalid" style="visibility:hidden">Must be a valid email address</span>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="10" required class="form-control" placeholder="Adventure is out there!"></textarea>
+                </fieldset>
+
+                <!--<div class="g-recaptcha" data-sitekey="6LdcvCUTAAAAAMZV9GVQ3OLD62WwMwzyutBpX4zM" aria-required="true"></div>-->
+
+                <button class="send-btn btn">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+            </form>
+        </div>
+        <div class="col-sm-5 col-xs-12">
+            <div class="img-rounded me"></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div style="display:none;" id="thankyou_message">
+        <h2>Thanks for contacting me.</h2>
+    </div>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <!-- <script data-cfasync="false" type="text/javascript"
+    src="/form-submission-handler.js"></script> -->
+    <!-- END -->
+
 </div>

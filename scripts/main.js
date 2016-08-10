@@ -3,7 +3,6 @@
  */
 jQuery(document).ready(function ($) {
     var pathname = window.location.pathname;
-    console.log(pathname);
     if (pathname == '/') {
         $('.nav-home').addClass('active');
     }
