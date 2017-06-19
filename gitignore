@@ -2,3 +2,5 @@ _site/
 _site/*
 config.codekit3
 to_do.txt
+bower_components/
+bower_components/*
