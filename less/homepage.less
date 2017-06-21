@@ -1,44 +1,32 @@
 .homepage {
-  background: url('../img/IMG_4790a.jpg') no-repeat center;
-  height: 90vh;
-  background-size: cover;
-
-  .title {
-    padding-top: 14%;
-    padding-left: 5%;
-    color: #fff;
+  .row-padding {
+    padding: 5% 0;
+  }
+  .homepage-image {
+    background: url('../img/IMG_4790a.jpg') no-repeat center 40%;
+    height: 50vh;
+    background-size: cover;
+  }
+  .name-block {
+    font-family: "Oh Wonder Sans", sans-serif;
+    background-color: @color-dark;
+    border-top: solid 10px @color-accent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  .intro-text {
+    font-size: 18px;
+  }
+  .icons-row {
+    background: @color-white;
+  }
+  .quote-row {
+    //border-bottom: solid 10px @color-accent;
     text-align: center;
-
-    h1 {
-      padding: 2% 0 1% 0;
-      font-size: 5em;
-    }
-
-    .tagline {
-      font-size: 200%;
-      padding: 0 0 3% 0;
-
-      .link-button {
-        border: solid 2px white;
-        display: inline-flex;
-        margin: 5px;
-        background-color: rgba(30,30,30,0.1);
-
-        a {
-          color: white;
-          padding: 10px 15px;
-        }
-
-        a:hover {
-          color: white;
-          text-decoration: none;
-          cursor: pointer;
-        }
-      }
-
-      .link-button:hover {
-        background-color: transparent;
-      }
-    }
+    color: @color-white;
+    background-color: @color-accent;
+    font-family: "Oh Wonder Upright", serif;
+    font-size: 34px;
   }
 }
