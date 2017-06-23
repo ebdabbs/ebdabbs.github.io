@@ -1,10 +1,7 @@
 .homepage {
-  .row-padding {
-    padding: 5% 0;
-  }
   .homepage-image {
-    background: url('../img/IMG_4790a.jpg') no-repeat center 40%;
-    height: 50vh;
+    background: url('../img/IMG_4790a.jpg') no-repeat center 45%;
+    height: 60vh;
     background-size: cover;
   }
   .name-block {
@@ -20,13 +17,27 @@
   }
   .icons-row {
     background: @color-white;
+    .btn {
+      width: 100px;
+      margin: 20px auto 0 auto;
+      display: block;
+    }
   }
   .quote-row {
-    //border-bottom: solid 10px @color-accent;
     text-align: center;
     color: @color-white;
     background-color: @color-accent;
     font-family: "Oh Wonder Upright", serif;
     font-size: 34px;
+  }
+  @media screen and (max-width: @screen-sm-max) {
+    .homepage-image {
+      height: 40vh;
+    }
+    .icons-row {
+      .col-xs-12 {
+        padding-top: 5%;
+      }
+    }
   }
 }

@@ -41,16 +41,21 @@ body {
           color: @color-dark;
         }
       }
+      &.active {
+        a {
+          color: @color-dark;
+        }
+      }
     }
   }
 }
 
 a {
   text-decoration: none;
-  color: @color-light;
+  color: @color-dark;
 }
 a:hover {
-  color: @color-light;
+  color: @color-dark;
 }
 h1 {
   font-size: 3em;
@@ -72,18 +77,25 @@ footer {
         &:hover {
           text-decoration: none;
           cursor: pointer;
+          color: @color-light;
         }
       }
       &.active {
         a {
-          color: @color-dark;
+          color: @color-light;
         }
       }
     }
   }
 }
+.row-padding {
+  padding: 5% 0;
+}
 .serif-font {
   font-family: 'Oh Wonder', serif;
+}
+.sans-font {
+  font-family: "Oh Wonder Sans", sans-serif;
 }
 .center {
   margin: 0 auto;
@@ -99,11 +111,14 @@ footer {
 }
 
 button, .btn {
-  border: solid 2px white;
+  border: 0;
   border-radius: 0;
-  margin: 5px;
-  background-color: transparent;
-  &:hover {
-    background-color: rgba(30,30,30,0.1);
+  &.btn-primary {
+    background-color: @color-gray;
+    color: @color-white;
+    font-family: "Oh Wonder Sans", sans-serif;
+    &:hover {
+      background-color: @color-dark;
+    }
   }
 }

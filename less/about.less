@@ -1,65 +1,75 @@
 @import "variables";
 
-#about {
+.about-page {
   h3 {
-    text-transform: uppercase;
+    font-family: "Oh wonder", sans-serif;
+    font-size: 30px;
   }
   .title-wrapper {
     position: relative;
     .section-title {
       padding: 15px 45px 0 45px;
-      background-color: @color-accent;
+      background-color: @color-light;
       position: absolute;
       top: -40px;
-      right: 0;
+      left: 0;
       height: 40px;
       margin: 0;
     }
   }
   .row {
     .section {
-      padding: 45px 15px 20px 45px;
-    }
-    .section:last-child {
-      padding-right: 45px;
+      .center {
+        text-align: left;
+        width: 80%;
+      }
     }
   }
-  #intro {
-    background-color: @color-light;
-    div {
+  .intro {
+    background-color: @color-dark;
+    color: white;
+    .intro-text {
       padding: 5%;
+      a {
+        color: @color-light;
+        &:hover {
+          color: @color-white;
+        }
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 400px;
     }
   }
-  #education {
-    padding-bottom: 3%;
-  }
-  #more {
-    background-color: white;
-    padding-bottom: 2%;
+  .more {
+    background-color: @color-white;
     h3 {
-      padding-bottom: 2%;
+      margin-top: 0;
     }
   }
-  .thanks {
+  .pictures {
     text-align: right;
-    background-color: @color-light;
-    .me {
-      background: url("../img/IMG_4767a.jpg") no-repeat center;
-      background-size: cover;
-      height: 200px;
-      width: 200px;
-      margin: 15px;
+    background-color: @color-accent;
+    color: @color-white;
+    .photo {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
       float: left;
+      object-fit: cover;
     }
-    @media screen and (max-width: @screen-sm-max) {
-      text-align: center;
-      .section {
-        padding: 15px;
-      }
-      .me {
-        float: none;
-        margin: 15px auto;
-      }
+  }
+  @media screen and (max-width: @screen-sm-max) {
+    .row .section .center {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: @screen-xs-max) {
+    .intro img {
+      width: 75%;
     }
   }
 }
