@@ -1,0 +1,110 @@
+#projects {
+  #projects-desktop {
+    @media screen and (max-width: $screen-sm-max) {
+      display: none;
+    }
+  }
+  #projects-mobile {
+    display: none;
+    @media screen and (max-width: $screen-sm-max) {
+      display: inherit;
+      .card-description {
+        h3 {
+          font-weight: bold;
+          color: $color-light;
+        }
+      }
+    }
+  }
+  h1 {
+    font-family: "Oh wonder", sans-serif;
+    text-align: center;
+  }
+  .divider {
+    width: 50%;
+    padding-top: 30px;
+    margin: 0 auto 60px auto;
+    border-color: $color-light;
+  }
+  .btn {
+    background-color: $color-dark;
+    color: $color-accent;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    padding: auto 30px;
+    letter-spacing: 1px;
+  }
+  .btn:hover {
+    color: $color-accent;
+    text-decoration: none;
+    background-color: $color-dark;
+  }
+  .card {
+    padding: 30px;
+    .card-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 250px;
+      width: 100%;
+      background-position: center;
+      background-color: $color-light;
+      .card-txt {
+        display: none;
+      }
+    }
+    .card-image:hover {
+      cursor: pointer;
+      background-color: $color-light;
+      .layer {
+        height: 250px;
+        width: 100%;
+        padding: 100px 15px;
+        background-color: rgba(217, 229, 252, 0.9);
+        .card-txt {
+          display: block;
+          color: $color-dark;
+          font-weight: bold;
+          text-align: center;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .wedding-home {
+    .card-image {
+      background-image: url('../assets/img/projects/wedding_home.jpg');
+    }
+  }
+  .nsrdec-site {
+    .card-image {
+      background-image: url('../assets/img/projects/nsrdec-site.jpg');
+    }
+  }
+  .pit {
+    .card-image {
+      background-image: url('../assets/img/projects/pit.jpg');
+    }
+  }
+  .dol {
+    .card-image {
+      background-image: url('../assets/img/projects/dol.png');
+    }
+  }
+  .zooki {
+    .card-image {
+      background-image: url('../assets/img/projects/zooki2.png');
+    }
+  }
+  .blitz {
+    .card-image {
+      background-image: url('../assets/img/projects/blitz2.png');
+    }
+  }
+  .ray {
+    .card-image {
+      background-image: url('../assets/img/projects/ray_tracer.png');
+    }
+  }
+}

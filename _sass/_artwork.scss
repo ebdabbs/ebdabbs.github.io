@@ -1,0 +1,95 @@
+#artwork {
+  h1 {
+    font-family: "Oh wonder", sans-serif;
+    text-align: center;
+  }
+  .grid {
+    margin-top: 15px;
+    .card {
+      margin-bottom: 25px;
+      .video-content {
+        z-index: 1;
+        background-color: $color-light;
+        .video-wrapper {
+          position: relative;
+          padding-bottom: 50.25%;
+          padding-top: 25px;
+          height: 0;
+          border-bottom: solid 4px $color-dark;
+          iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .card-content {
+        z-index: 1;
+        background-color: $color-light;
+        min-height: 320px;
+        .card-image {
+          border-bottom: solid 4px $color-dark;
+          background-size: cover;
+          background-repeat: no-repeat;
+          min-height: 280px;
+          width: 100%;
+
+          &.flowers {
+            background-image: url('../assets/img/art/flowers.jpg');
+          }
+          &.cezanne {
+            background-image: url('../assets/img/art/cezanne.jpg');
+          }
+          &.restless {
+            background-image: url('../assets/img/art/restless.jpg');
+          }
+          &.opposites {
+            background-image: url('../assets/img/art/opposites.jpg');
+          }
+          &.barksdale {
+            background-image: url('../assets/img/art/barksdale.jpg');
+          }
+          &.cupcake {
+            background-image: url('../assets/img/art/cupcake.jpg');
+          }
+          &.untitled {
+            background-image: url('../assets/img/art/untitled.jpg');
+          }
+          &.lounging {
+            background-image: url('../assets/img/art/lounging.jpg');
+          }
+          &.book {
+            background-image: url('../assets/img/art/book.jpg');
+          }
+          &.coffee {
+            background-image: url('../assets/img/art/coffee.jpg');
+          }
+          &.durer {
+            background-image: url('../assets/img/art/durer.jpg');
+          }
+          &.sour {
+            background-image: url('../assets/img/art/sour.jpg');
+          }
+          &.ballston {
+            background-image: url('../assets/img/art/ballston.jpg');
+          }
+          &.right-brained {
+            background-image: url('../assets/img/art/right-brained.jpg');
+          }
+          &.poolside {
+            background-image: url('../assets/img/art/poolside.jpg');
+          }
+        }
+      }
+      .title {
+        padding: 5px;
+        font-weight: bold;
+      }
+      .description {
+        padding: 0 5px 8px 5px;
+      }
+    }
+  }
+}

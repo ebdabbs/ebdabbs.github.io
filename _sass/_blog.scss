@@ -1,0 +1,41 @@
+.blog-landing {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .section {
+    border-radius: 5px;
+    padding: 4%;
+  }
+  .heading-section {
+    text-align: center;
+    padding: 2%;
+  }
+  .posts-section {
+    background-color: $color-white;
+    margin-bottom: 2%;
+    a:hover {
+      text-decoration: none;
+      color: $color-accent;
+    }
+  }
+  .bio-section {
+    background-color: $color-accent;
+    color: $color-white;
+      margin-bottom: 2%;
+    .bio-image {
+      width: 80%;
+      margin: auto;
+      max-width: 500px;
+    }
+    h3 {
+      margin-top: 10px;
+    }
+    ul li {
+      padding: 5px 0;
+      i {
+        padding-right: 5px;
+      }
+    }
+  }
+}

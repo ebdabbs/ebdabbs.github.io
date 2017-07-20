@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ls-navbar"
+              aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.baseurl }}/">
+        <img src="/assets/img/floral_Lmd.png" height="60" width="60">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="ls-navbar">
+      <ul class="nav navbar-nav">
+        {% for page in site.pages %}
+        {% if page.title %}
+        <li class="nav-{{ page.title }}">
+          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+

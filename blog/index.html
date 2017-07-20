@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="blog-landing">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="heading-section">
+                <h2 class="serif-font">
+                    "Learn how to see. Realize that everything connects to everything else." -Leonardo da Vinci
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9 col-xs-12">
+            <div class="section posts-section">
+                <ul class="post-list">
+                    {% for post in site.posts %}
+                    <li>
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <h3 class="sans-font">
+                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h3>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+            <div class="section bio-section">
+                <img class="bio-image img-circle img-responsive" src="../assets/img/blog_profile.JPG">
+                <h3 class="serif-font center">Meet Lizzie</h3>
+                <ul>
+                    <li>I’ll never turn down a chance to go boogie boarding.</li>
+                    <li>I’m a Pixar aficionado.</li>
+                    <li>When I take notes, they're 50% doodles.</li>
+                </ul>
+                <a href="/about">more...</a>
+            </div>
+        </div>
+    </div>
+</div>

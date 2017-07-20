@@ -1,6 +1,14 @@
-name: Elizabeth Dabbs
-title: Elizabeth Dabbs
-description: Developer. Artist. Consultant.
+# Site settings
+title: Lizzie Salita
+email: lizzie@lizziesalita.com
+description: > # this means to ignore newlines until "baseurl:"
+  Developer/Artist/Consultant living in Princeton, NJ. Welcome to my
+  portfolio where right + left brain collide, and you'll find my latest
+  projects, artwork, and musings.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lizziesalita.com" # the base hostname & protocol for your site
 twitter_username: ebdabbs
 github_username:  ebdabbs
+
+# Build settings
 markdown: kramdown

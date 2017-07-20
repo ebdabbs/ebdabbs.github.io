@@ -1,0 +1,125 @@
+@import "variables";
+body {
+    margin: 0 auto;
+    color: $color-gray;
+    font-family: "Avenir Next", sans-serif;
+    .page-wrapper {
+        background-color: $color-light;
+        .container {
+            padding: 0;
+            margin: 0 !important;
+            width: 100%;
+            .row {
+                margin: 0 !important;
+            }
+        }
+    }
+}
+
+.navbar {
+    padding: 1%;
+    background-color: white;
+    margin-bottom: 0;
+    font-family: "Oh Wonder Sans", sans-serif;
+    border: 0;
+    border-radius: 0;
+    font-size: 18px;
+    .navbar-header {
+        .navbar-toggle {
+            background-color: $color-light;
+            .icon-bar {
+                background-color: $color-dark;
+            }
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                padding: 20px;
+                color: $color-gray;
+                &:hover {
+                    background-color: initial;
+                    color: $color-dark;
+                }
+            }
+            &.active {
+                a {
+                    color: $color-dark;
+                }
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $color-dark;
+}
+a:hover {
+    color: $color-dark;
+}
+h1 {
+    font-size: 3em;
+}
+footer {
+    font-size: .8em;
+    background-color: $color-dark;
+    padding: 2% 0;
+    ul {
+        list-style: none;
+        font-weight: bold;
+        font-size: 120%;
+        text-align: center;
+        li {
+            display: inline;
+            margin-right: 20px;
+            a {
+                color: $color-white;
+                &:hover {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: $color-light;
+                }
+            }
+            &.active {
+                a {
+                    color: $color-light;
+                }
+            }
+        }
+    }
+}
+.row-padding {
+    padding: 5% 0;
+}
+.serif-font {
+    font-family: 'Oh Wonder', serif;
+}
+.sans-font {
+    font-family: "Oh Wonder Sans", sans-serif;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.divider {
+    margin-top: 26px;
+    margin-bottom: 36px;
+    width: 120px;
+    height: 1px;
+    border-bottom: solid 4px;
+    padding: 0;
+}
+
+button, .btn {
+    border: 0;
+    border-radius: 0;
+    &.btn-primary {
+        background-color: $color-gray;
+        color: $color-white;
+        font-family: "Oh Wonder Sans", sans-serif;
+        &:hover {
+            background-color: $color-dark;
+        }
+    }
+}

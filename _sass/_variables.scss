@@ -1,0 +1,23 @@
+/* Colors */
+$color-dark: #44547C;
+$color-light: #CFCCDF;
+$color-accent: #EC60A0;
+$color-gray: #767A84;
+$color-white: white;
+
+/* Fonts */
+@font-face {
+  font-family: "Oh wonder";
+  src: url(../assets/fonts/OhWonder/Ohwonder-Regular.otf);
+}
+
+@font-face {
+  font-family: "Oh Wonder Sans";
+  src: url(../assets/fonts/OhWonder/OhWonderSans-Regular.otf);
+}
+
+@font-face {
+  font-family: "Oh Wonder Upright";
+  src: url(../assets/fonts/OhWonder/OhWonderUpright-Regular.otf);
+}
+
