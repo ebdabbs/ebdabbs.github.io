@@ -6193,6 +6193,11 @@ button, .btn {
   .blog-landing .posts-section a:hover {
     text-decoration: none;
     color: #EC60A0; }
+  .blog-landing .posts-section .post-list li {
+    padding: 0 0 30px 0; }
+    .blog-landing .posts-section .post-list li img {
+      margin: 20px auto 0 auto;
+      max-height: 200px; }
 
 .blog-landing .bio-section {
   background-color: #EC60A0;
@@ -6238,7 +6243,7 @@ button, .btn {
         text-decoration: underline; }
         .post .post-content p a:hover {
           color: #EC60A0; }
-    .post .post-content iframe, .post .post-content img {
+    .post .post-content iframe {
       max-width: 100%; }
   @media screen and (max-width: 991px) {
     .post {

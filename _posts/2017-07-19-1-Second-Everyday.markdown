@@ -3,6 +3,7 @@ layout: post
 title:  "1 Second Everyday"
 date:   2017-07-19
 categories: 
+image: /assets/img/posts/1SE.PNG
 ---
 
 I've always been sentimental about moving.
@@ -30,6 +31,11 @@ I've always been fascinated by [stop motion](https://www.youtube.com/watch?v=pzy
 and 1SE videos share the choppiness that
 makes stop motion so fascinating. 
 
+<br>
+<div align="center">
+    <img src="/assets/img/posts/1SE.PNG" width="560" height="315" class="img-responsive" title="Screenshot of the 1SE app" alt="Screenshot of the 1SE app">
+</div>
+<br>
 
 Attempting to take a video to represent each day forced me to consider
 the beauty of everyday moments and document ordinary parts life, much like
@@ -66,7 +72,7 @@ trained for a half marathon, and took full advantage of Orlando's theme parks. E
 
 <br>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/88hR6SjQuCw" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/88hR6SjQuCw" frameborder="0" allowfullscreen></iframe>
 </div>
 <br>
 

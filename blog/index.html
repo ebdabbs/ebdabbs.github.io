@@ -17,17 +17,17 @@ title: Blog
     <div class="row">
         <div class="col-sm-9 col-xs-12">
             <div class="section posts-section">
-                <ul class="post-list">
-                    {% for post in site.posts %}
-                    <li>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                        <h3 class="sans-font">
-                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                        </h3>
-                    </li>
-                    {% endfor %}
-                </ul>
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				<ul class="post-list">
+					{% for post in site.posts %}
+						<li>
+							<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+							<h3 class="sans-font center">
+								<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+							</h3>
+							<img src="{{ post.image }}" class="img-responsive">
+						</li>
+					{% endfor %}
+				</ul>
             </div>
         </div>
         <div class="col-sm-3 col-xs-12">
