@@ -6238,6 +6238,8 @@ button, .btn {
         text-decoration: underline; }
         .post .post-content p a:hover {
           color: #EC60A0; }
+    .post .post-content iframe, .post .post-content img {
+      max-width: 100%; }
   @media screen and (max-width: 991px) {
     .post {
       margin: 0; }

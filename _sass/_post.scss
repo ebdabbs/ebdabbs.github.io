@@ -33,6 +33,9 @@
                 }
             }
         }
+	    iframe, img {
+		    max-width: 100%;
+	    }
     }
 	@media screen and (max-width: $screen-sm-max) {
 		margin: 0;
