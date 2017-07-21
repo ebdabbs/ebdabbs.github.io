@@ -1,0 +1,58 @@
+- url: http://www.signedsealedsalita.com
+  title: Signed Sealed Salita
+  description: Wedding Website
+  class: wedding
+  year: 2016
+  tech: Jekyll, GitHub Pages, Javascript/ jQuery, CSS/Less, Bootstrap framework, Sketch
+  responsibilities:
+    - Design &amp; development
+
+- url: https://pit.bah.com/
+  title: Booz Allen Product Information Tool
+  description: Site was redesigned to accommodate more project listings, provide SSO access for Booz Allen employees, and facilitate lead capturing.
+  class: pit
+  year: 2015
+  tech: PHP, HTML, CSS/Less, Javascript/ jQuery, Bootstrap, Headless Drupal
+  responsibilities:
+    - Front-end implementation of new homepage with filtering functionality
+    - Communicating with API to display content on product detail pages
+    - Handling of private vs. public data
+
+- url:
+  title: Ray Tracer
+  description: Series of projects for Computer Graphics course at William &amp; Mary
+  class: ray
+  year: 2015
+  tech: C++, Linux
+  responsibilities:
+    - Shadows, diffuse & specular shading, ambient lighting
+    - Intersection acceleration with a bounding hierarchy
+    - Spot, directional, and point light sources
+    - Anit-aliasing; texture mapping
+    - Reflections and recursive ray tracing
+    - Lambertian BRDF
+    - Stochastic Ray Tracing
+
+- url:
+  title: Zooki
+  description: Group Project for Game Design course at William &amp; Mary
+  class: zooki
+  year: 2014
+  tech: C++, Photoshop, Visual Studio
+  responsibilities:
+    - Character and background story development; named Zooki
+    - Created sprite sheets, graphics, concept art, and sound effects
+    - Helped with level designs
+    - Wrote design document, made slides for project presentation
+
+- url: 
+  title: Blitz
+  description: Group Project for Intern Coding Challenge at AT&amp;T
+  class: blitz
+  year: 2014
+  tech: Java, XML, Android SKD, Eclipse, Git
+  responsibilities:
+    - Front-end implementation of reservation procedure
+    - UI/UX design, wireframes
+    - App icon and interactive floor plan image
+    - Completed training course in agile methodology

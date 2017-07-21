@@ -7,209 +7,96 @@ title: Projects
     <h1>Selected Projects</h1>
     <div id="projects-desktop">
         <div class="row grid">
-            <div class="col-md-4 col-sm-6 card wedding-home" data-toggle="modal" data-target="#wedding-modal">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Signed Sealed Salita</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 card pit" data-toggle="modal" data-target="#pit-modal">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Booz Allen Product Information Tool</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 card ray" data-toggle="modal" data-target="#ray-modal">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Ray Tracer</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 card zooki" data-toggle="modal" data-target="#zooki-modal">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Zooki</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 card blitz" data-toggle="modal" data-target="#blitz-modal">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Blitz</div>
-                    </div>
-                </div>
-            </div>
+			{% for project in site.data.projects %}
+				<div class="col-md-4 col-sm-6 card {{project.class}}" data-toggle="modal" data-target="#{{project.class}}-modal">
+					<div class="card-image">
+						<div class="layer">
+							<div class="card-txt center">{{project.title}}</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
         </div>
     </div>
     <div id="projects-mobile">
         <div class="divider"></div>
-        <div class="row card wedding-home">
-            <div class="col-sm-5">
-                <a href="http://www.signedsealedsalita.com" target="_blank">
-                    <div class="card-image">
-                        <div class="layer">
-                            <div class="card-txt center">Signed Sealed Salita</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-7">
-                <div class="card-description">
-                    <h3>Signed Sealed Salita</h3>
-                    <p>Wedding Website, 2016</p>
-                    <ul>
-                        <li>Created custom design with <a href="http://sketchapp.com" target="_blank">Sketch</a> to match the look and feel of our wedding theme</li>
-                        <li>Regularly updated to keep family and friends informed</li>
-                    </ul>
-                    <p><strong>Languages/ Technology:</strong> Jekyll, GitHub Pages, Javascript/ jQuery, CSS/Less, <a href="http://getbootstrap.com/" target="_blank">Bootstrap framework</a>, Sketch</p>
-                    <a href="http://www.signedsealedsalita.com" target="_blank">
-                        <button type="button" class="btn btn-primary">View Site</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="row card pit">
-            <div class="col-sm-5">
-                <a href="https://pit.bah.com/" target="_blank">
-                    <div class="card-image">
-                        <div class="layer">
-                            <div class="card-txt center">Booz Allen Product Information Tool</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-7">
-                <div class="card-description">
-                    <h3>Booz Allen Product Information Tool</h3>
-                    <p>Version 2.0, 2015</p>
-                    <p><strong></strong> Site was redesigned to accommodate more project listings, provide SSO access for Booz Allen employees, and facilitate lead capturing.</p>
-                    <strong>Responsibilities:</strong>
-                    <ul>
-                        <li>Front-end implementation of new homepage with filtering functionality</li>
-                        <li>Communicating with API to display content on product detail pages</li>
-                        <li>Handling of private vs. public data</li>
-                    </ul>
-                    <p><strong>Languages/ Technology:</strong> PHP, HTML, CSS/Less, Javascript/ jQuery, <a href="http://getbootstrap.com/" target="_blank">Bootstrap framework</a>, <a href="https://www.drupal.org/" target="_blank">Drupal</a> back-end</p>
-                    <a href="http://pit.bah.com" target="_blank">
-                    <button type="button" class="btn btn-primary">View Site</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="divider"></div>
-        <div class="row card ray">
-            <div class="col-sm-5">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Ray Tracer</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="card-description">
-                    <h3>Ray Tracer</h3>
-                    <p>Series of projects for Computer Graphics course at William & Mary, 2015</p>
-                    <p><strong>Assignment:</strong> Build a ray tracer to implement:</p>
-                    <ul>
-                        <li>Shadows, diffuse & specular shading, ambient lighting</li>
-                        <li>Intersection acceleration with a bounding hierarchy</li>
-                        <li>Spot, directional, and point light sources</li>
-                        <li>Anit-aliasing; texture mapping</li>
-                        <li>Reflections and recursive ray tracing</li>
-                        <li>Lambertian BRDF</li>
-                        <li>Stochastic Ray Tracing</li>
-                    </ul>
-                    <p><strong>Languages/ Technology:</strong> C++, Linux commands</p>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="row card zooki">
-            <div class="col-sm-5">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Zooki</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="card-description">
-                    <h3>Zooki</h3>
-                    <p>Group Project for Game Design course at William & Mary, 2014</p>
-                    <p><strong>Summary:</strong> Zooki the penguin's favorite food is ice cream, but it is melting because of global warming. In order to survive, he
-                        needs to store as much ice cream as possible where it will be safe and cold in his igloo. Run, jump, and slide to navigate the maze-like terrain and collect enough ice cream cones before they melt. But watch out - the floor is lava!
-                    </p>
-                    <strong>Responsibilities:</strong>
-                    <ul>
-                        <li>Character and background story development; named Zooki</li>
-                        <li>Created sprite sheets, graphics, concept art, and sound effects</li>
-                        <li>Helped with level designs</li>
-                        <li>Wrote design document, made slides for project presentation</li>
-                    </ul>
-                    <p><strong>Languages/ Technology:</strong> C++, Photoshop, Visual Studio</p>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="row card blitz">
-            <div class="col-sm-5">
-                <div class="card-image">
-                    <div class="layer">
-                        <div class="card-txt center">Blitz</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="card-description">
-                    <h3>Blitz</h3>
-                    <p>Group Project for Intern Coding Challenge at AT&T, 2014</p>
-                    <p><strong>Challenge:</strong> Create a mobile desk reservation service for teleworking employees</p>
-                    <strong>Responsibilities:</strong>
-                    <ul>
-                        <li>Front-end implementation of reservation procedure</li>
-                        <li>UI/UX design, wireframes</li>
-                        <li>App icon and interactive floor plan image</li>
-                        <li>Completed training course in agile methodology</li>
-                    </ul>
-                    <p><strong>Languages/ Technology:</strong> Java, XML, Android SKD, Eclipse, Git</p>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
+		{% for project in site.data.projects %}
+			<div class="row card {{project.class}}">
+				<div class="col-sm-5">
+					{% if project.url %}
+						<a href="{{project.url}}" target="_blank">
+							<div class="card-image">
+								<div class="layer">
+									<div class="card-txt center">{{project.title}}</div>
+								</div>
+							</div>
+						</a>
+					{% else %}
+						<div class="card-image">
+							<div class="layer">
+								<div class="card-txt center">{{project.title}}</div>
+							</div>
+						</div>
+					{% endif %}
+				</div>
+				<div class="col-sm-7">
+					<div class="card-description">
+						<h3>{{project.title}}</h3>
+						<p>{{project.description}}, {{project.year}}</p>
+						<ul>
+							{% for responsibility in project.responsibilities %}
+								<li>{{responsibility}}</li>
+							{% endfor %}
+						</ul>
+						<p><strong>Languages/ Technology:</strong> {{project.tech}}</p>
+						{% if project.url %}
+							<a href="http://www.signedsealedsalita.com" target="_blank">
+								<button type="button" class="btn btn-primary">View Site</button>
+							</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+		{% endfor %}
     </div>
 </div>
 
-<div class="modal fade" tabindex="-1" role="dialog" id="pit-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                <h4 class="modal-title"><a href="http://pit.bah.com" target="_blank">Booz Allen Hamilton Product Information Tool</a></h4>
-            </div>
-            <div class="modal-body">
-                <p>Version 2.0, 2015</p>
-                <p><strong>Summary:</strong> Redesigned the site to accommodate more project listings, provide SSO access for Booz Allen employees, and facilitate lead capturing.</p>
-                <strong>Responsibilities:</strong>
-                <ul>
-                    <li>Front-end implementation of new homepage with filtering functionality</li>
-                    <li>Communicating with API to display content on product detail pages</li>
-                    <li>Handling of private vs. public data</li>
-                </ul>
-                <p><strong>Languages/ Technology:</strong> PHP, HTML, CSS/Less, Javascript/ jQuery, <a href="http://getbootstrap.com/" target="_blank">Bootstrap framework</a>, <a href="https://www.drupal.org/" target="_blank">Drupal</a> back-end</p>
-            </div>
-            <div class="modal-footer">
-                <a href="http://pit.bah.com" target="_blank">
-                    <button type="button" class="btn btn-primary">View Site</button>
-                </a>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+{% for project in site.data.projects %}
+	<div class="modal fade" tabindex="-1" role="dialog" id="{{project.class}}-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+					<h4 class="modal-title">
+						{% if project.url %}
+							<a href="http://pit.bah.com" target="_blank">{{project.title}}</a>
+						{% else %}
+							{{project.title}}
+						{% endif %}
+					</h4>
+				</div>
+				<div class="modal-body">
+					<p><strong>Summary:</strong> {{project.description}}, {{project.year}}</p>
+					<strong>Responsibilities:</strong>
+					<ul>
+						{% for responsibility in project.responsibilities %}
+							<li>{{responsibility}}</li>
+						{% endfor %}
+					</ul>
+					<p><strong>Languages/ Technology:</strong> {{project.tech}}</p>
+				</div>
+				<div class="modal-footer">
+					{% if project.url %}
+					<a href="http://pit.bah.com" target="_blank">
+						<button type="button" class="btn btn-primary">View Site</button>
+					</a>
+					{% endif %}
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+{% endfor %}
 
 <div class="modal fade" tabindex="-1" role="dialog" id="wedding-modal">
     <div class="modal-dialog">

@@ -1,0 +1,89 @@
+- class: flowers
+  title: Organge Flowers
+  year: 2012
+  medium: Oil
+  file: flowers.jpg
+
+- class: ballston
+  title: Ballston
+  year: 2016
+  medium: Graphite & Charcoal
+  file: ballston.jpg
+
+- class: right-brained
+  title: Right Brained
+  year: 2014
+  medium: Acrylic
+  file: right-brained.jpg
+
+- class: opposites
+  title: Opposites Attract
+  year: 2015
+  medium: Cut paper
+  file: opposites.jpg
+
+- class: poolside
+  title: Poolside
+  year: 2016
+  medium: Watercolor &amp; ink
+  file: poolside.jpg
+
+- class: lounging
+  title: Lounging
+  year: 2013
+  medium: Charcoal
+  file: lounging.jpg
+
+- class: cezanne
+  title: Cezanne Study
+  year: 2012
+  medium: Oil
+  file: cezanne.jpg
+
+- class: untitled
+  title: Untitled
+  year: 2013
+  medium: Charcoal
+  file: untitled.jpg
+
+- class: sour
+  title: Sweet &amp; Sour
+  year: 2014
+  medium: Acrylic
+  file: untitled.jpg
+
+- class: durer
+  title: D&uuml;rer Study
+  year: 2012
+  medium: Pen
+  file: durer.jpg
+
+- class: barksdale
+  title: Barksdale
+  year: 2012
+  medium: Oil
+  file: barksdale.jpg
+
+- class: restless
+  title: Restless
+  year: 2013
+  medium: Charcoal
+  file: restless.jpg
+
+- class: book
+  title: The Book
+  year: 2013
+  medium: Cont&eacute; Crayon
+  file: book.jpg
+
+- class: cupcake
+  title: Cupcake
+  year: 2011
+  medium: Acrylic
+  file: cupcake.jpg
+
+- class: coffee
+  title: Coffee
+  year: 2011
+  medium: Ink Wash
+  file: coffee.jpg
