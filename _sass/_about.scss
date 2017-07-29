@@ -22,46 +22,75 @@
                 width: 80%;
             }
         }
-    }
-    .intro {
-        background-color: $color-dark;
-        color: white;
-        .intro-text {
-            padding: 5%;
-            a {
-                color: $color-light;
-                &:hover {
-                    color: $color-white;
-                }
-            }
-        }
-        img {
-            display: block;
-            width: 100%;
-            height: auto;
-            max-width: 400px;
-        }
-    }
-    .more {
-        background-color: $color-white;
-        h3 {
-            margin-top: 0;
-        }
+	    &.intro {
+		    background-color: $color-dark;
+		    color: white;
+		    .intro-text {
+			    padding: 5%;
+			    a {
+				    color: $color-light;
+				    &:hover {
+					    color: $color-white;
+				    }
+			    }
+		    }
+		    img {
+			    display: block;
+			    width: 100%;
+			    height: auto;
+			    max-width: 400px;
+		    }
+	    }
+	    &.more {
+		    background-color: $color-white;
+		    h3 {
+			    margin-top: 0;
+		    }
+	    }
+	    &.places {
+		    background-color: $color-accent;
+		    color: $color-white;
+		    h4 {
+			    padding-top: 30vh;
+		    }
+		    img {
+			    max-height: 70vh;
+			    margin: 10px 0;
+		    }
+	    }
     }
     @media screen and (max-width: $screen-sm-max) {
         font-size: 16px;
         .row .section .center {
             width: 100%;
         }
-        .intro {
-            img {
-                margin-bottom: 30px;
-            }
-        }
+	    .row {
+		    &.intro {
+			    img {
+				    margin-bottom: 30px;
+			    }
+		    }
+		    &.places {
+			    h4 {
+				    text-align: center;
+			    }
+			    img {
+				    margin: 10px auto;
+			    }
+		    }
+	    }
+
     }
     @media screen and (max-width: $screen-xs-max) {
         .intro img {
             width: 75%;
         }
+	    .row {
+		    &.places {
+			    h4 {
+				    padding-top: 15px;
+			    }
+		    }
+	    }
     }
 }
