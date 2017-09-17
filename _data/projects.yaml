@@ -1,3 +1,13 @@
+- url: beta.usaspending.gov
+  title: USA Spending
+  description: Implements the The Digital Accountability and Transparency Act of 2014 (DATA Act)
+  class: usaspending
+  year: 2017
+  extra: Considered the first large-scale Agile government-wide project. <a target="_blank" href="https://github.com/fedspendingtransparency/usaspending-website">See the code here</a>.
+  tech: React/ Redux
+  responsibilities:
+    - Front-end development
+
 - url: http://www.signedsealedsalita.com
   title: Signed Sealed Salita
   description: Wedding Website
@@ -6,17 +16,6 @@
   tech: Jekyll, GitHub Pages, Javascript/ jQuery, CSS/Less, Bootstrap framework, Sketch
   responsibilities:
     - Design &amp; development
-
-- url: https://pit.bah.com/
-  title: Booz Allen Product Information Tool
-  description: Site was redesigned to accommodate more project listings, provide SSO access for Booz Allen employees, and facilitate lead capturing.
-  class: pit
-  year: 2015
-  tech: PHP, HTML, CSS/Less, Javascript/ jQuery, Bootstrap, Headless Drupal
-  responsibilities:
-    - Front-end implementation of new homepage with filtering functionality
-    - Communicating with API to display content on product detail pages
-    - Handling of private vs. public data
 
 - url:
   title: Ray Tracer
