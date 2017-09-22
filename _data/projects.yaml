@@ -1,4 +1,4 @@
-- url: beta.usaspending.gov
+- url: http://beta.usaspending.gov
   title: USA Spending
   description: Implements the The Digital Accountability and Transparency Act of 2014 (DATA Act)
   class: usaspending

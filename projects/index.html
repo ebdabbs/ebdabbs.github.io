@@ -70,7 +70,7 @@ title: Projects
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
 					<h4 class="modal-title">
 						{% if project.url %}
-							<a href="http://pit.bah.com" target="_blank">{{project.title}}</a>
+							<a href="{{project.url}}" target="_blank">{{project.title}}</a>
 						{% else %}
 							{{project.title}}
 						{% endif %}
@@ -91,7 +91,7 @@ title: Projects
 				</div>
 				<div class="modal-footer">
 					{% if project.url %}
-					<a href="http://pit.bah.com" target="_blank">
+					<a href="{{project.url}}" target="_blank">
 						<button type="button" class="btn btn-primary">View Site</button>
 					</a>
 					{% endif %}
@@ -100,105 +100,5 @@ title: Projects
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
 {% endfor %}
-
-<div class="modal fade" tabindex="-1" role="dialog" id="wedding-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                <h4 class="modal-title"><a href="http://www.signedsealedsalita.com" target="_blank">Signed Sealed Salita</a></h4>
-            </div>
-            <div class="modal-body">
-                <p>Wedding Website, 2016</p>
-                <ul>
-                    <li>Designed to match the look and feel of our wedding theme</li>
-                    <li>Regularly updated to keep family, friends, and guests informed</li>
-                </ul>
-                <p><strong>Languages/ Technology:</strong> HTML, CSS/Less, Javascript/ jQuery, <a href="http://getbootstrap.com/" target="_blank">Bootstrap framework</a>, Sketch, GitHub Pages, Jekyll</p>
-            </div>
-            <div class="modal-footer">
-                <a href="http://www.signedsealedsalita.com" target="_blank">
-                    <button type="button" class="btn btn-primary">View Site</button>
-                </a>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="zooki-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                <h4 class="modal-title"><a href="https://github.com/dzl0971/Meet-Zooki" target="_blank">Zooki</a></h4>
-            </div>
-            <div class="modal-body">
-                <p>Group Project for Game Design course at William & Mary, 2014</p>
-                <p><strong>Summary:</strong> Zooki the penguin's favorite food is ice cream, but it is melting because of global warming. In order to survive, he
-                    needs to store as much ice cream as possible where it will be safe and cold in his igloo. Run, jump, and slide to navigate the maze-like terrain and collect enough ice cream cones before they melt. But watch out - the floor is lava!
-                </p>
-                <strong>Responsibilities:</strong>
-                <ul>
-                    <li>Character and background story development; named Zooki</li>
-                    <li>Created sprite sheets, graphics, concept art, and sound effects</li>
-                    <li>Helped with level designs</li>
-                    <li>Wrote design document, made slides for project presentation</li>
-                </ul>
-                <p><strong>Languages/ Technology:</strong> C++, Photoshop, Visual Studio</p>
-            </div>
-            <div class="modal-footer"></div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="blitz-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                <h4 class="modal-title">Blitz Android Application</h4>
-            </div>
-            <div class="modal-body">
-                <p>Group Project for Intern Coding Challenge at AT&T, 2014</p>
-                <p><strong>Challenge:</strong> Create a mobile desk reservation service for teleworking employees</p>
-                <strong>Responsibilities:</strong>
-                <ul>
-                    <li>Front-end implementation of reservation procedure</li>
-                    <li>UI/UX design, wireframes</li>
-                    <li>App icon and interactive floor plan image</li>
-                    <li>Completed training course in agile methodology</li>
-                </ul>
-                <p><strong>Languages/ Technology:</strong> Java, XML, Android SKD, Eclipse, Git</p>
-            </div>
-            <div class="modal-footer"></div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="ray-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                <h4 class="modal-title">Ray Tracer</h4>
-            </div>
-            <div class="modal-body">
-                <p>Series of projects for Computer Graphics course at William & Mary, 2015</p>
-                <p><strong>Assignment:</strong> Build a ray tracer to implement:</p>
-                <ul>
-                    <li>Shadows, diffuse & specular shading, ambient lighting</li>
-                    <li>Intersection acceleration with a bounding hierarchy</li>
-                    <li>Spot, directional, and point light sources</li>
-                    <li>Anit-aliasing; texture mapping</li>
-                    <li>Reflections and recursive ray tracing</li>
-                    <li>Lambertian BRDF</li>
-                    <li>Stochastic Ray Tracing</li>
-                </ul>
-                <p><strong>Languages/ Technology:</strong> C++, Linux</p>
-            </div>
-            <div class="modal-footer"></div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 
 
