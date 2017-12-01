@@ -4,11 +4,11 @@
   medium: Oil
   file: flowers.jpg
 
-- class: ballston
-  title: Ballston
-  year: 2016
-  medium: Graphite & Charcoal
-  file: ballston.jpg
+- class: rva
+  title: Richmond, VA Wedding Postcard
+  year: 2017
+  medium: Pen & Colored Pencil
+  file: rva-postcard.jpg
 
 - class: right-brained
   title: Right Brained
@@ -16,11 +16,17 @@
   medium: Acrylic
   file: right-brained.jpg
 
-- class: opposites
-  title: Opposites Attract
-  year: 2015
-  medium: Cut paper
-  file: opposites.jpg
+- class: ballston
+  title: Ballston
+  year: 2016
+  medium: Graphite & Charcoal
+  file: ballston.jpg
+
+- class: lounging
+  title: Lounging
+  year: 2013
+  medium: Charcoal
+  file: lounging.jpg
 
 - class: poolside
   title: Poolside
@@ -28,11 +34,11 @@
   medium: Watercolor &amp; ink
   file: poolside.jpg
 
-- class: lounging
-  title: Lounging
-  year: 2013
-  medium: Charcoal
-  file: lounging.jpg
+- class: opposites
+  title: Opposites Attract
+  year: 2015
+  medium: Cut paper
+  file: opposites.jpg
 
 - class: cezanne
   title: Cezanne Study

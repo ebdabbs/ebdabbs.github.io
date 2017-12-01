@@ -1,13 +1,8 @@
 .post {
-    margin-top: 2%;
     margin-bottom: 2%;
     .post-header {
         background-color: white;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        -moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        padding: 0 3%;
+        padding: 3%;
         .post-title {
             color: $color-dark;
             font-family: "Oh wonder", serif;
@@ -15,14 +10,11 @@
         .post-meta {
             font-family: "Oh Wonder Sans", sans-serif;
             font-size: 18px;
+            margin-bottom: 0;
         }
     }
     .post-content {
         background-color: white;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -moz-border-radius-bottomright: 5px;
         padding: 0 3% 3% 3%;
         p {
             font-size: 16px;

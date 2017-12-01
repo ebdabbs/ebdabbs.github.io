@@ -8,6 +8,15 @@
   responsibilities:
     - Front-end development
 
+- url: http://www.coatsforrise.org
+  title: Coats for RISE
+  description: Coat Drive Website for the Junior League of Greater Princeton
+  class: coats
+  year: 2017
+  tech: Jekyll, GitHub Pages, Javascript/ jQuery, CSS/Less
+  responsibilities:
+    - Design &amp; development
+
 - url: http://www.signedsealedsalita.com
   title: Signed Sealed Salita
   description: Wedding Website

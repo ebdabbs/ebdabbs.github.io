@@ -4,6 +4,7 @@ title:  "1 Second Everyday"
 date:   2017-07-19
 categories: 
 image: /assets/img/posts/1SE.PNG
+description: How an app helped me practice self-reflection through storytelling.
 ---
 
 I've always been sentimental about moving.
