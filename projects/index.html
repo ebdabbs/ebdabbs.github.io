@@ -48,7 +48,7 @@ title: Projects
 								<li>{{responsibility}}</li>
 							{% endfor %}
 						</ul>
-						<p><strong>Languages/ Technology:</strong> {{project.tech}}</p>
+						<p><span class="category">Languages/ Technology:</span> {{project.tech}}</p>
 						{% if project.url %}
 							<a href="http://www.signedsealedsalita.com" target="_blank">
 								<button type="button" class="btn btn-primary">View Site</button>
@@ -63,7 +63,7 @@ title: Projects
 </div>
 
 {% for project in site.data.projects %}
-	<div class="modal fade" tabindex="-1" role="dialog" id="{{project.class}}-modal">
+	<div class="modal projects-modal fade" tabindex="-1" role="dialog" id="{{project.class}}-modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -77,17 +77,17 @@ title: Projects
 					</h4>
 				</div>
 				<div class="modal-body">
-					<p><strong>Summary:</strong> {{project.description}}, {{project.year}}</p>
+					<p><span class="category">Summary:</span> {{project.description}}, {{project.year}}</p>
 					{% if project.extra %}
 						<p>{{project.extra}}</p>
 					{% endif %}
-					<strong>Responsibilities:</strong>
+					<span class="category">Responsibilities:</span>
 					<ul>
 						{% for responsibility in project.responsibilities %}
 							<li>{{responsibility}}</li>
 						{% endfor %}
 					</ul>
-					<p><strong>Languages/ Technology:</strong> {{project.tech}}</p>
+					<p><span class="category">Languages/ Technology:</span> {{project.tech}}</p>
 				</div>
 				<div class="modal-footer">
 					{% if project.url %}

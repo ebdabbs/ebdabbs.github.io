@@ -1,7 +1,8 @@
 #artwork {
 	h1 {
-		font-family: "Oh wonder", sans-serif;
-		text-align: center;
+        @include sans-heading;
+        text-align: center;
+        font-size: 22px;
 	}
 	.grid {
 		margin-top: 15px;
@@ -88,7 +89,6 @@
 			}
 			.title {
 				padding: 5px;
-				font-weight: bold;
 			}
 			.description {
 				padding: 0 5px 8px 5px;

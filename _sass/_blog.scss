@@ -3,17 +3,10 @@
 		list-style-type: none;
 		padding-left: 0;
 	}
-	.section {
-		//border-radius: 5px;
-		padding: 4%;
-	}
 	.posts-section {
+        padding-top: 30px;
 		background-color: $color-white;
-		margin-bottom: 2%;
-		a:hover {
-			text-decoration: none;
-			color: $color-accent;
-		}
+		margin-bottom: 30px;
 		.post-list {
 			li {
 				padding: 0 0 30px 0;
@@ -22,15 +15,39 @@
                     width: 100%;
                     height: 180px;
 				}
+                .post-meta {
+                    @include sans-heading;
+                }
+                h3 {
+                    margin-top: 10px;
+                    .post-link {
+                        font-family: $font-serif;
+                        font-size: 21px;
+                        &:hover {
+                            text-decoration: none;
+                            color: $color-accent;
+                        }
+                    }
+                }
 			}
 		}
 	}
+    @media screen and (max-width: $screen-sm-max) {
+        .posts-section {
+            .post-list {
+                img {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 }
 
 .blog-landing, .post {
     .heading-section {
         text-align: center;
-        padding: 2%;
+        padding: 1% 0;
+        font-family: $font-cursive;
     }
     .bio-section {
         padding: 0;
@@ -40,14 +57,27 @@
             margin: auto;
             max-width: 500px;
         }
-        h3 {
-            font-size: 32px;
-            margin-top: 10px;
-        }
-        ul li {
-            padding: 5px 0;
-            i {
-                padding-right: 5px;
+        .bio-content {
+            background-color: $color-dark;
+            color: $color-white;
+            padding: 15px;
+            h3 {
+                @include sans-heading;
+                margin-bottom: 5px;
+            }
+            ul {
+                li {
+                    padding: 5px 0;
+                    i {
+                        padding-right: 5px;
+                    }
+                }
+            }
+            a {
+                color: $color-light;
+                &:hover, &:active {
+                    color: $color-white;
+                }
             }
         }
     }

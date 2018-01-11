@@ -7,17 +7,26 @@ $color-white: white;
 
 /* Fonts */
 @font-face {
-    font-family: "Oh wonder";
-    src: url(../assets/fonts/OhWonder/Ohwonder-Regular.otf);
+    font-family: 'Clicker Script', cursive;
 }
-
 @font-face {
-    font-family: "Oh Wonder Sans";
-    src: url(../assets/fonts/OhWonder/OhWonderSans-Regular.otf);
+    font-family: 'Judson', serif;
 }
-
 @font-face {
-    font-family: "Oh Wonder Upright";
-    src: url(../assets/fonts/OhWonder/OhWonderUpright-Regular.otf);
+    font-family: 'Work Sans', sans-serif;
 }
 
+$font-serif: 'Judson', serif;
+$font-sans: 'Work Sans', sans-serif;
+$font-cursive: 'Clicker Script', cursive;
+
+@mixin sans-heading {
+    font-family: $font-sans;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@mixin serif-heading {
+    font-family: $font-serif;
+    letter-spacing: 1px;
+}

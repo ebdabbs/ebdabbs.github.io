@@ -5,12 +5,12 @@
 		background-size: cover;
 	}
 	.name-block {
-		font-family: "Oh Wonder Sans", sans-serif;
 		background-color: $color-dark;
 		border-top: solid 10px $color-accent;
 		color: white;
-		text-transform: uppercase;
 		font-size: 36px;
+        padding-top: 5px;
+        font-family: $font-cursive;
 	}
 	.intro-text {
 		font-size: 18px;
@@ -21,14 +21,13 @@
 			width: 130px;
 			margin: 20px auto 0 auto;
 			display: block;
-			font-size: 20px;
 		}
 	}
 	.quote-row {
 		text-align: center;
 		color: $color-white;
 		background-color: $color-accent;
-		font-family: "Oh Wonder Upright", serif;
+        font-family: $font-cursive;
 		font-size: 34px;
 	}
 	@media screen and (max-width: $screen-sm-max) {

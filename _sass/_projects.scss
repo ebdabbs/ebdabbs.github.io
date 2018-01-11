@@ -1,4 +1,5 @@
 #projects {
+    margin: 30px 0;
     #projects-desktop {
         @media screen and (max-width: $screen-sm-max) {
             display: none;
@@ -13,6 +14,7 @@
 		        .card-description {
 			        font-size: 16px;
 			        h3 {
+                        @include sans-heading;
 				        color: $color-dark;
 			        }
 		        }
@@ -20,30 +22,21 @@
         }
     }
     h1 {
-        font-family: "Oh wonder", sans-serif;
+        @include sans-heading;
         text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
     }
     .divider {
         width: 50%;
         margin: 7% auto 8% auto;
         border-color: $color-accent;
     }
-    .btn {
-        background-color: $color-dark;
-        color: $color-white;
-        border-radius: 5px;
-        border: none;
-        margin-top: 30px;
-        padding: auto 30px;
-        letter-spacing: 1px;
-    }
     .btn:hover {
-        color: $color-white;
-        text-decoration: none;
-        background-color: $color-dark;
+        background-color: rgba(118,122,132, 0.2);
     }
     .card {
-        padding: 30px;
+        padding: 0;
         .card-image {
             background-size: cover;
             background-repeat: no-repeat;
@@ -66,7 +59,7 @@
                 .card-txt {
                     display: block;
                     color: $color-dark;
-                    font-weight: bold;
+                    @include sans-heading;
                     text-align: center;
                     vertical-align: middle;
                 }
@@ -103,5 +96,14 @@
         .card-image {
             background-image: url('../assets/img/projects/coats.png');
         }
+    }
+}
+
+.projects-modal {
+    .modal-title {
+        @include sans-heading;
+    }
+    .category {
+        @include serif-heading;
     }
 }

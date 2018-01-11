@@ -25,7 +25,7 @@ body {
 	margin-bottom: 0;
 	border: 0;
 	border-radius: 0;
-	font-size: 18px;
+    @include sans-heading;
 	.navbar-header {
 		.navbar-toggle {
 			background-color: $color-light;
@@ -60,17 +60,12 @@ a {
 a:hover {
 	color: $color-dark;
 }
-h1 {
-	font-size: 3em;
-}
+
 footer {
-	font-size: .8em;
 	background-color: $color-dark;
 	padding: 2% 0;
 	ul {
 		list-style: none;
-		font-weight: bold;
-		font-size: 120%;
 		text-align: center;
 		li {
 			display: inline;
@@ -94,12 +89,7 @@ footer {
 .row-padding {
 	padding: 5% 0;
 }
-.serif-font {
-	font-family: 'Oh Wonder', serif;
-}
-.sans-font {
-	font-family: "Oh Wonder Sans", sans-serif;
-}
+
 .center {
 	margin: 0 auto;
 	text-align: center;
@@ -114,14 +104,17 @@ footer {
 }
 
 button, .btn {
-	border: 0;
+    @include sans-heading;
+	border: solid 1px $color-dark;
 	border-radius: 0;
 	&.btn-primary {
-		background-color: $color-gray;
-		color: $color-white;
-		font-family: "Oh Wonder Sans", sans-serif;
+		background-color: transparent;
+		color: $color-dark;
 		&:hover {
-			background-color: $color-dark;
+			background-color: rgba(207,204,223, 0.5);
 		}
+        &:active {
+            color: $color-dark;
+        }
 	}
 }
