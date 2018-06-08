@@ -43,4 +43,24 @@ title: Artwork
 			</div>
 		{% endfor %}
     </div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h1 id="design">Design</h1>
+		</div>
+	</div>
+	<div class="row grid">
+		{% for design in site.data.design %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card">
+            <div class="card-content">
+                <a href="/assets/img/art/{{design.file}}">
+                    <div class="card-image {{design.class}}"></div>
+                </a>
+                <div class="title">{{design.title}}</div>
+                <div class="description">
+                    {{design.medium}}, {{design.year}}
+                </div>
+            </div>
+        </div>
+		{% endfor %}
+	</div>
 </div>

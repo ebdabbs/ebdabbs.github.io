@@ -4,12 +4,6 @@
   medium: Oil
   file: flowers.jpg
 
-- class: rva
-  title: Richmond, VA Wedding Postcard
-  year: 2017
-  medium: Pen & Colored Pencil
-  file: rva-postcard.jpg
-
 - class: right-brained
   title: Right Brained
   year: 2014
@@ -46,35 +40,17 @@
   medium: Oil
   file: cezanne.jpg
 
-- class: untitled
-  title: Untitled
-  year: 2013
-  medium: Charcoal
-  file: untitled.jpg
-
 - class: sour
   title: Sweet &amp; Sour
   year: 2014
   medium: Acrylic
   file: untitled.jpg
 
-- class: durer
-  title: D&uuml;rer Study
-  year: 2012
-  medium: Pen
-  file: durer.jpg
-
 - class: barksdale
   title: Barksdale
   year: 2012
   medium: Oil
   file: barksdale.jpg
-
-- class: restless
-  title: Restless
-  year: 2013
-  medium: Charcoal
-  file: restless.jpg
 
 - class: book
   title: The Book

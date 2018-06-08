@@ -4,9 +4,9 @@
   class: usaspending
   year: 2017
   extra: Considered the first large-scale Agile government-wide project. <a target="_blank" href="https://github.com/fedspendingtransparency/usaspending-website">See the code here</a>.
-  tech: React/ Redux
+  tech: React/ Redux, ES6, Sass, D3, Mapbox, Webpack, Jest, Enzyme, ESLint
   responsibilities:
-    - Front-end development
+    - Frontend lead
 
 - url: http://www.coatsforrise.org
   title: Coats for RISE
@@ -60,7 +60,7 @@
   year: 2014
   tech: Java, XML, Android SKD, Eclipse, Git
   responsibilities:
-    - Front-end implementation of reservation procedure
+    - Frontend implementation of reservation procedure
     - UI/UX design, wireframes
     - App icon and interactive floor plan image
     - Completed training course in agile methodology

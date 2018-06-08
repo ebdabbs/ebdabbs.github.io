@@ -34,6 +34,7 @@
 					border-bottom: solid 4px $color-dark;
 					background-size: cover;
 					background-repeat: no-repeat;
+                    background-position: center;
 					min-height: 280px;
 					width: 100%;
 
@@ -42,9 +43,6 @@
 					}
 					&.cezanne {
 						background-image: url('../assets/img/art/cezanne.jpg');
-					}
-					&.restless {
-						background-image: url('../assets/img/art/restless.jpg');
 					}
 					&.opposites {
 						background-image: url('../assets/img/art/opposites.jpg');
@@ -55,9 +53,6 @@
 					&.cupcake {
 						background-image: url('../assets/img/art/cupcake.jpg');
 					}
-					&.untitled {
-						background-image: url('../assets/img/art/untitled.jpg');
-					}
 					&.lounging {
 						background-image: url('../assets/img/art/lounging.jpg');
 					}
@@ -66,9 +61,6 @@
 					}
 					&.coffee {
 						background-image: url('../assets/img/art/coffee.jpg');
-					}
-					&.durer {
-						background-image: url('../assets/img/art/durer.jpg');
 					}
 					&.sour {
 						background-image: url('../assets/img/art/sour.jpg');
@@ -84,6 +76,9 @@
 					}
                     &.rva {
                         background-image: url('../assets/img/art/rva-postcard.jpg');
+                    }
+					&.derby {
+                        background-image: url('../assets/img/art/derby.png');
                     }
 				}
 			}
