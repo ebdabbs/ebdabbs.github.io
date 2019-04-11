@@ -1,3 +1,15 @@
+- class: magnolia
+  title: Magnolia
+  year: 2019
+  medium: Oil
+  file: magnolia.jpg
+
+- class: figure
+  title: Figure study
+  year: 2019
+  medium: Oil
+  file: figure.jpg
+
 - class: flowers
   title: Organge Flowers
   year: 2012
@@ -15,6 +27,12 @@
   year: 2016
   medium: Graphite & Charcoal
   file: ballston.jpg
+
+- class: poppies
+  title: Poppies study
+  year: 2019
+  medium: Oil
+  file: poppies.jpg
 
 - class: lounging
   title: Lounging
