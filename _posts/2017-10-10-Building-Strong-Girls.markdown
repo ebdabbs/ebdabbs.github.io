@@ -20,5 +20,5 @@ What I love about Gamma Phi Beta’s philanthropic motto “We are Women Buildin
 
 <br>
 <div align="center">
-<img src="/assets/img/posts/gotr.jpg" width="350" height="350" class="img-responsive" title="My Girls on the Run team" alt="My Girls on the Run team">
+<img src="/assets/img/posts/gotr.JPG" width="350" height="350" class="img-responsive" title="My Girls on the Run team" alt="My Girls on the Run team">
 </div>
