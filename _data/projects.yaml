@@ -2,9 +2,9 @@
   title: USA Spending
   description: Implements the The Digital Accountability and Transparency Act of 2014 (DATA Act)
   class: usaspending
-  year: 2017
+  year: 2017-2019
   extra: Considered the first large-scale Agile government-wide project. <a target="_blank" href="https://github.com/fedspendingtransparency/usaspending-website">See the code here</a>.
-  tech: React/ Redux, ES6, Sass, D3, Mapbox, Webpack, Jest, Enzyme, ESLint
+  tech: React, Redux, Sass, D3, Mapbox, Webpack, Jest, Enzyme, ESLint
   responsibilities:
     - Frontend lead
 
