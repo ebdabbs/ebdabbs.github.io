@@ -3,18 +3,12 @@ layout: default
 title: Artwork
 ---
 <div id="artwork" class="subpage">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1>Artwork</h1>
-        </div>
-    </div>
+	<h1>Artwork</h1>
     <div class="row grid">
 		{% for art in site.data.artwork %}
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card">
 			<div class="card-content">
-				<a href="/assets/img/art/{{art.file}}">
-					<div class="card-image {{art.class}}"></div>
-				</a>
+				<div class="card-image {{art.class}}"></div>
 				<div class="title">{{art.title}}</div>
 				<div class="description">
 					{{art.medium}}, {{art.year}}
@@ -23,11 +17,20 @@ title: Artwork
 		</div>
 		{% endfor %}
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <h1 id="animation">Animation</h1>
-        </div>
-    </div>
+	<h2>Tie Dye</h2>
+	<div class="row grid">
+		{% for art in site.data.tiedye %}
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card">
+			<div class="card-content">
+				<a href="{{art.url}}" target="_blank">
+					<div class="card-image {{art.class}}"></div>
+				</a>
+				<a href="{{art.url}}" target="_blank" class="title">{{art.title}}</a>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<h2>Animation</h2>
     <div class="row grid">
 		{% for video in site.data.animation %}
 			<div class="col-lg-4 col-sm-6 col-xs-12 card">
@@ -43,11 +46,7 @@ title: Artwork
 			</div>
 		{% endfor %}
     </div>
-	<div class="row">
-		<div class="col-xs-12">
-			<h1 id="design">Design</h1>
-		</div>
-	</div>
+	<h2>Design</h2>
 	<div class="row grid">
 		{% for design in site.data.design %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card">

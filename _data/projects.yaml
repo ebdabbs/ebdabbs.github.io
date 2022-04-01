@@ -1,8 +1,8 @@
-- url: http://beta.usaspending.gov
+- url: http://usaspending.gov
   title: USA Spending
   description: Implements the The Digital Accountability and Transparency Act of 2014 (DATA Act)
   class: usaspending
-  year: 2017-2019
+  year: 2017-2021
   extra: Considered the first large-scale Agile government-wide project. <a target="_blank" href="https://github.com/fedspendingtransparency/usaspending-website">See the code here</a>.
   tech: React, Redux, Sass, D3, Mapbox, Webpack, Jest, Enzyme, ESLint
   responsibilities:
@@ -17,7 +17,7 @@
   responsibilities:
     - Design &amp; development
 
-- url: http://www.signedsealedsalita.com
+- url:
   title: Signed Sealed Salita
   description: Wedding Website
   class: wedding

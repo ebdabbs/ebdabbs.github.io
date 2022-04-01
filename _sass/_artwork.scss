@@ -1,9 +1,4 @@
 #artwork {
-	h1 {
-        @include sans-heading;
-        text-align: center;
-        font-size: 22px;
-	}
 	.grid {
 		margin-top: 15px;
 		.card {
@@ -77,9 +72,6 @@
                     &.rva {
                         background-image: url('../assets/img/art/rva-postcard.jpg');
                     }
-					&.derby {
-                        background-image: url('../assets/img/art/derby.png');
-                    }
 					&.magnolia {
 						background-image: url('../assets/img/art/magnolia.jpg');
 					}
@@ -88,6 +80,12 @@
 					}
 					&.figure {
 						background-image: url('../assets/img/art/figure.jpg');
+					}
+					&.tiedye {
+						background-image: url('../assets/img/art/tiedye.jpg');
+					}
+					&.shirts {
+						background-image: url('../assets/img/art/shirts.jpg');
 					}
 				}
 			}

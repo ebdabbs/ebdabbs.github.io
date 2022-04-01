@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "24 Books in 2017 (Part One)"
+title:  "24 Books in 2017"
 date:   2018-01-01
 categories:
 image: /assets/img/posts/books/May-Jun.jpg
